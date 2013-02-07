@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="DAOTest">
+        <packages>
+            <package name="org.ishop.dao"/>
+        </packages>
+    </test>
+    <test name="ServiceTest">
+        <packages>
+            <package name="org.ishop.service"/>
+        </packages>
+    </test>
+</suite>
